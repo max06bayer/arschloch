@@ -1,0 +1,82 @@
+body {
+    background-image: url("/Design/background.png");
+    background-size: cover;
+    background-color: rgb(14, 95, 45);
+    color: white;
+}
+
+#apply {
+    position: absolute;
+    top:4%;
+    right:2%;
+}
+
+#card-1 {
+    position: absolute;
+    width: 11em;
+    left: calc(50% - 5.5em - (5.5em + 1em));
+    bottom: 5%;
+    transition: 0.4s all;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(-5px 5px 5px #2222226b);
+}
+
+#card-2 {
+    position: absolute;
+    width: 11em;
+    left: calc(50% - 5.5em + (5.5em + 1em));
+    bottom: 5%;
+    transition: 0.4s all;
+    -webkit-filter: drop-shadow(-5px -5px 5px #222);
+    filter: drop-shadow(-5px 5px 5px #2222226b);
+}
+
+#card-3 {
+    position: absolute;
+    width: 11em;
+    left: calc(50% - 5.5em - (3 * 5.5em + 3em));
+    bottom: 5%;
+    transition: 0.4s all;
+    -webkit-filter: drop-shadow(-5px -5px 5px #222);
+    filter: drop-shadow(-5px 5px 5px #2222226b);
+}
+
+#card-4 {
+    position: absolute;
+    width: 11em;
+    left: calc(50% - 5.5em + (3* 5.5em + 3em));
+    bottom: 5%;
+    transition: 0.4s all;
+    -webkit-filter: drop-shadow(-5px -5px 5px #222);
+    filter: drop-shadow(-5px 5px 5px #2222226b);
+}
+
+#card-5 {
+    position: absolute;
+    width: 11em;
+    left: calc(50% - 5.5em - (5 * 5.5em + 5em));
+    bottom: 5%;
+    transition: 0.4s all;
+    -webkit-filter: drop-shadow(-5px -5px 5px #222);
+    filter: drop-shadow(-5px 5px 5px #2222226b);
+}
+
+#card-6 {
+    position: absolute;
+    width: 11em;
+    left: calc(50% - 5.5em + (5 * 5.5em + 5em));
+    bottom: 5%;
+    transition: 0.4s all;
+    -webkit-filter: drop-shadow(-5px -5px 5px #222);
+    filter: drop-shadow(-5px 5px 5px #2222226b);
+}
+
+#placeholder {
+    position: absolute;
+    left: calc(50% - 7.5em);
+    top: 15%;
+    width: 15em;
+    transition: 0.5s all;
+}
+
+
