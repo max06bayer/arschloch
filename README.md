@@ -1,2 +1,2 @@
 # arschloch
-Arschloch Spiel Website
+Website zum spielen von Arschloch.
