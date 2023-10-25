@@ -1,5 +1,5 @@
 body {
-    background-image: url("/Design/background.png");
+    background-image: url("Design/background.png");
     background-size: cover;
     background-color: rgb(14, 95, 45);
     color: white;
